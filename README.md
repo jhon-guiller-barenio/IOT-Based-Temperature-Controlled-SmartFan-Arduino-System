@@ -43,10 +43,6 @@ MIT App Inventor App	Interface to control the fan remotely.
 📱 Mobile App Interface (MIT App Inventor)
 
 🔁 System Architecture
-mermaid
-Copy
-Edit
-graph TD
     A[LM35 Sensor] -->|Temp Data| B[Arduino Uno]
     B --> C[L293D Motor Driver]
     C --> D[DC Fan]
