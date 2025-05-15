@@ -43,12 +43,16 @@ MIT App Inventor App	Interface to control the fan remotely.
 📱 Mobile App Interface (MIT App Inventor)
 
 🔁 System Architecture
+
     A[LM35 Sensor] -->|Temp Data| B[Arduino Uno]
+
     B --> C[L293D Motor Driver]
+
     C --> D[DC Fan]
+
     B --> E[16x2 LCD]
+
     F[Mobile App via Bluetooth] -->|Control Commands| B
-🚦 Flowchart
 
 🧪 Testing Summary
 Test Case	Temperature	Mode	Fan Speed	App Sync
@@ -96,21 +100,6 @@ Pair your smartphone with the HC-05 Bluetooth module.
 
 Launch the app and start monitoring or controlling the fan.
 
-📂 Repository Structure
-Copy
-Edit
-├── Arduino_Code/
-│   └── smart_fan.ino
-├── App/
-│   └── fan_controller.aia
-├── assets/
-│   ├── breadboard_diagram.png
-│   ├── schematic_diagram.png
-│   ├── pcb_layout.png
-│   ├── app_ui.png
-│   ├── flowchart.png
-├── README.md
-└── LICENSE
 📜 License
 This project is licensed under the Apache License. Feel free to modify, distribute, and use it for both educational and personal purposes.
 
