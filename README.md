@@ -9,18 +9,16 @@ This project presents a temperature-controlled smart fan system using an Arduino
 📌 Project Overview
 With rising energy demands and the drive for home automation, this system enables automatic and manual control of a fan using real-time temperature data. It aims to enhance indoor comfort, optimize power usage, and provide users with an intuitive way to control climate via their smartphones.
 
+
 🧠 Features
 🔥 Automatic Fan Speed Control based on room temperature.
-
 📱 Bluetooth Connectivity using HC-05 and a custom MIT App Inventor mobile interface.
-
 📊 Real-Time Temperature Display on a 16x2 I2C LCD.
-
 🔋 Energy Efficient operation and fan power management.
-
 🔧 Modular, Scalable System using Arduino Uno for easy upgrades.
-
 🧪 Fully Tested under multiple environmental conditions.
+
+
 
 🧱 Components Used
 Component	Description
@@ -33,26 +31,23 @@ HC-05 Bluetooth	Enables wireless communication with mobile app.
 Lithium Batteries	Portable power source for the fan and system.
 MIT App Inventor App	Interface to control the fan remotely.
 
+
+
 🖼️ System Design
 ⚡ Breadboard Circuit Design
-
 🔄 Schematic Diagram
-
 🔌 PCB Layout
-
 📱 Mobile App Interface (MIT App Inventor)
 
 🔁 System Architecture
 
     A[LM35 Sensor] -->|Temp Data| B[Arduino Uno]
-
     B --> C[L293D Motor Driver]
-
     C --> D[DC Fan]
-
     B --> E[16x2 LCD]
-
     F[Mobile App via Bluetooth] -->|Control Commands| B
+
+
 
 🧪 Testing Summary
 Test Case	Temperature	Mode	Fan Speed	App Sync
@@ -61,19 +56,21 @@ Warm Hand on Sensor	37°C	Auto	High	✅
 Manual Mode	-	Manual	Custom PWM	✅
 Frequent Temp Changes	Varying	Auto	Flexible	✅
 
+
+
 💡 Benefits
 Promotes energy-saving habits.
-
 Ideal for smart homes, offices, and classroom automation.
-
 Easily scalable to integrate with other IoT devices.
+
+
 
 ⚠️ Known Limitations
 Limited range due to Bluetooth (approx. 10m).
-
 Accuracy affected by sensor placement and voltage fluctuations.
-
 System designed for indoor use only.
+
+
 
 🛠️ Tools & Technologies
 Tool/Platform	Purpose
@@ -82,6 +79,8 @@ MIT App Inventor	Mobile application development
 Fritzing	PCB and circuit diagram design
 Tinkercad	Circuit simulation
 C++	Arduino codebase
+
+
 
 💰 Cost Breakdown
 Category	Item	Cost (₱)
@@ -100,8 +99,16 @@ Pair your smartphone with the HC-05 Bluetooth module.
 
 Launch the app and start monitoring or controlling the fan.
 
+
+
+
 📜 License
 This project is licensed under the Apache License. Feel free to modify, distribute, and use it for both educational and personal purposes.
+
+
+
+
+
 
 👥 Contributors
 Anngelica Eñaga - Project Manager
